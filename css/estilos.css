@@ -4,3 +4,101 @@ hr {
     border: none;
     border-radius: 5px;
 }
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho (h1) */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilos para os títulos secundários (h2) */
+h2 {
+    color: #333;
+}
+
+/* Estilos para os parágrafos (p) */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Estilos para links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para listas não ordenadas (ul) */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para a barra horizontal (hr) */
+hr {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+/* Estilos para a figura */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos para a imagem dentro da figura */
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* Estilos para a legenda da figura */
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Estilos para links que se abrem em uma nova aba/janela */
+a[target="_blank"] {
+    text-decoration: underline;
+}
+
+#container {
+
+    width: 80%;
+
+    max-width: 800px;
+
+    min-height: 500px;
+
+    margin: auto;
+
+    text-align: auto;
+
+    background-color: rgba(0, 0, 0, 0.226);
+
+    box-shadow: black 0px 0px 15px;
+
+    padding: 16px;
+
+    border-radius: 4px;
+
+}
